@@ -1,8 +1,10 @@
-#Jessica's business page
-**This is a business website for a welder**
-**It is built using React, Express, and Node**
+# `Jessica's business page`
 
-##React Notes
+**This is a business website for a welder.**
+
+**It is built using React, Express, and Node.**
+
+## `React Notes`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

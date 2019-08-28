@@ -1,33 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+/* Hero */
+.hero{
+  background-color: #1A579F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
+  padding: 0px 200px 0px 200px;
   font-size: calc(10px + 2vmin);
   color: white;
+  opacity: 0.80;
+  /* background-image: url('./welding-image.jpg'); */
+  object-fit: contain;
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+  font-size: 3em;
+  font-family: 'Montserrat';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.sub-heading{
+  font-size: 1.5em;
+  font-family: 'Varela';
+}
+
+.primary-btn{
+  background-color: #C0924D;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 15px 10px 15px;
+  border-radius: 2px;
+  font-family: 'Montserrat';
+}
+
+
+/* ********** phone screen *********** */
+@media screen and (max-width: 450px) {
+  .hero{
+    padding: 0px 40px 0px 20px;
   }
 }
