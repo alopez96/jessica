@@ -1,6 +1,10 @@
+$primary-color: #1A579F;
+$secondary-color: #C0924D;
+$font1: 'Montserrat';
+$font2: 'Varela';
 /* Hero */
 .hero{
-  background-color: #1A579F;
+  background-color: $primary-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,35 +13,30 @@
   padding: 0px 200px 0px 200px;
   font-size: calc(10px + 2vmin);
   color: white;
-  opacity: 0.80;
-  /* background-image: url('./welding-image.jpg'); */
-  object-fit: contain;
+  opacity: 1.0;
 }
 
 .heading{
   font-size: 3em;
-  font-family: 'Montserrat';
+  font-family: $font1;
 }
 
 .sub-heading{
   font-size: 1.5em;
-  font-family: 'Varela';
+  font-family: $font2;
 }
 
 .primary-btn{
-  background-color: #C0924D;
-  font-size: 24px;
-  font-weight: 500;
+  background-color: $secondary-color;
+  font-size: 1.5em;
   color: #fff;
   padding: 10px 15px 10px 15px;
   border-radius: 2px;
-  font-family: 'Montserrat';
+  font-family: $font1;
 }
 
 
 /* ********** phone screen *********** */
 @media screen and (max-width: 450px) {
-  .hero{
-    padding: 0px 40px 0px 20px;
-  }
+  
 }
